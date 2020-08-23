@@ -11,6 +11,9 @@ Example:
 def say_hi(name, age):
     print("Hi, my name is {} and I'm {} years old.".format(name, age))
 
+def say_hi(name, age):
+    return "Hi, my name is {} and I'm {} years old.".format(name, age)
+
 
 ## 2. Correct Sentence
 """
@@ -28,6 +31,11 @@ Example:
 2. correct_sentence("Greetings, friends") == "Greetings, friends."
 3. correct_sentence("greetings, friends.") == "Greetings, friends."
 """
+
+def correct_sentence(str):
+    prin
+
+
 
 ## 3. Fisrt Word
 """
